@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title> Project-Form a Story</title>
+</head>
+
+
+<body>
+<div class="container">
+    <h1>Project-Form a Story</h1>
+    <form action="story.html" method="GET">
+        <label value="animal-1">Animal : </label>
+        <br>
+        <br>
+        <input id="animal-1" type="text" name="animal-1" required>
+        <br>
+        <br>
+        <label fo="animal-2"> Another Animal : </label><br>
+        <br>
+        <input id="animal-2" name="animal-2" type="text" required><br>
+        <br>
+        <label for="animal-3"> One More Animal : </label><br>
+        <br>
+        <input id="animal-3" name="animal-3" type="text" required><br>
+        <br>
+        <label fro="adj-1"> Adjective (past tense) :</label><br>
+        <br>
+        <input id="adj-1" name="adj-1" type="text" required><br>
+        <br>
+        <label for="verb-1"> Verb (ends in -ing) :</label><br>
+        <br>
+        <input id="verb-1" name="verb-1" type="text" required><br>
+        <br>
+        <label for="num-1"> Number :</label><br>
+        <br>
+        <input id="num-1" name="num-1" type="number" required><br>
+        <br>
+        <span>
+            <label> YES or NO : </label><br>
+            <br>
+            </label>YES </label>
+            <input id="yes" type="radio" name="answer" value="no" required><br><br>
+            <label> NO </label>
+            <input id="yes" type="radio" name="answer" value="yes" required><br>
+            <br>
+            
+            <label for="speed"> Relative speed (ends in -er):</label><br>
+            <select id="speed" name="speed">
+                <option value="faster">Faster</option>
+                <option value="slow">Slow</option>
+                <option value="veryslow">Very slow</option>
+            </select><br>
+            <br>
+            <label for="quote">Motivational Quote :</label><br>
+            <br>
+            <input type="text" list="quote-choices" id="quote" name="quote" required>
+            
+            <datalist id="quote-choices">
+                <option value="winner gets ice cream!"></option>
+                
+              </datalist>
+              
+        </span><br>
+        <br>
+        <label for="message">Meaningful Message :</label><br>
+        <br>
+        <textarea id="message" required minrow="8" maxcol="40">
+
+        </textarea>
+        <br>
+        <br>
+        <input type="submit" value="From My Story !">
+
+        </from>
+</div>
+</body>
+
+</html>
