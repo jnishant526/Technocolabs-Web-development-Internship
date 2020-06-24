@@ -1,0 +1,52 @@
+
+body{
+    background-color: gray;
+}
+p {
+    color: red;
+    font-size: 15px;
+}
+ .case{
+     color: goldenrod !important;
+     text-transform: uppercase;
+ }
+
+ .brand{
+     color: hotpink;
+     font-size: 25px;
+     font-family: fantasy;
+     text-transform: capitalize;
+ }
+ 
+ #case{
+     color: indigo;
+     font-size: 50px;
+     text-transform: capitalize;
+     text-align: center;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ 
+ #artical-title{
+     color:black;
+     font-size: 60px;
+     text-shadow:red;
+     text-align: center;
+ }
+ .main{
+     font-size: 20px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: seagreen;
+     font-weight: bold;
+ }
+ .main li{
+     color:blue ;
+     font-weight: bolder;
+     
+ }
+ body{
+     background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/soccer.jpeg');
+     
+     
+     background-blend-mode: luminosity;
+ }
+ 
